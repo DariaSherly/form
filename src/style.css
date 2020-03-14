@@ -1,0 +1,81 @@
+* {
+margin: 0;
+padding: 0;
+
+}
+
+label {
+    display:block;
+    text-align: left;
+    margin-bottom: 17px;
+
+}
+
+.form {
+    margin-top: 100px;
+    width: 310px;
+    height: 409px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    border-radius: 5px;
+    margin-left: calc(50% - 150px);
+    font-family: Lato;
+    text-align: center;
+    padding: 10px;
+}
+
+.heading {
+    font-size: 36px; font-weight: bold;
+}
+
+.inputText {
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #D3D6DE;
+    border-radius: 5px;
+    height: 40px;
+    width: 100%;
+    padding-left: 5px;
+    box-sizing: border-box;
+}
+
+.inputText::placeholder {
+color: #B9B9C3;
+}
+
+.buttonLogin {
+    height: 40px;
+    background: #02B2E5 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 100%;
+    color: #FFFFFF;
+    font-weight: bold;
+    letter-spacing: 3px;
+    border: none;
+    margin: 0 0 19px 0;
+ }
+
+ a {
+     color: #02B2E5;
+     text-decoration: none;
+     font-size: 14px;
+ }
+
+ .headerlink {
+     font-size: 18px;
+     margin-top: 5px;
+     margin-bottom: 47px;
+     display:block;
+
+ }
+
+ label > p {
+     margin: 0 0 10px 0;
+ }
+
+ .inputCheckbox {
+     width: 20px; height: 20px;
+     margin: 0 12px 0 0;
+ }
+
+ .labelCheckbox {
+     display: flex;
+ }
